@@ -1,0 +1,44 @@
+package Array;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class LeftRotateArrayByK {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		  System.out.println("enter the size of an array");
+		  int size = scanner.nextInt();
+		 
+		  
+		  int[] array = new int[size];
+		  
+		  System.out.println("enter the array elements" );
+		  for(int i=0;i<array.length;i++) {
+			  array[i]=scanner.nextInt();
+		  }
+		  System.out.println("enter the rotations key:");
+		  
+		  int k = scanner.nextInt();
+		  
+		k=k%size;
+		 array=reverseArray(array,0,(size-1));
+		 array=reverseArray(array,0,(k-1));
+		 array=reverseArray(array,k,(size-1));
+		  
+		 Arrays.stream(array).forEach(a->System.out.println(a));
+		  
+		  scanner.close();
+	}
+	
+	
+	public static int[] reverseArray(int[] arr,int start,int end) {
+		while(start<end)
+		{
+			int temp=arr[start];
+			arr[start++]=arr[end];
+			arr[end--]=temp;
+		}
+		
+		return arr;
+	}
+}

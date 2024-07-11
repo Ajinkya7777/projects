@@ -1,0 +1,45 @@
+package Array;
+
+import java.util.Scanner;
+
+/*   
+ * 1. Using HashSet 
+ * 2. Two Pointers
+ */
+public class RemoveDuplicates {
+	public static void main(String[] args) {
+		int j=0;
+		int i=0;
+		 Scanner scanner = new Scanner(System.in);
+		  System.out.println("enter the size of an array");
+		  int size = scanner.nextInt();
+		  
+		  int[] array = new int[size];
+		  
+		  System.out.println("enter the array elements" );
+		  for(int l=0;l<array.length;l++) {
+			  array[l]=scanner.nextInt();
+		  }
+		  
+		  for(int k=1;k<array.length;k++) {
+			  if(array[i]!=array[j])
+			  {
+				  array[i+1]=array[j];
+				  i++;
+				  
+			  }
+			  
+			  else {
+				  j++;
+			  }
+			  
+		  }
+		  System.out.println("Unique Elements are :"+(i+1));
+		  for(i=0;i<i;i++)
+		  {
+			  System.out.println(array[i]);
+		  }
+		  
+		  scanner.close();
+	}
+}

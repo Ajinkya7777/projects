@@ -1,0 +1,31 @@
+package Array;
+
+
+/*   
+ * 1. Operations on Array -->                       Done
+ * 2. Largest Element in an Array -->               Done
+ * 3. Second Largest Element in an Array -->        Done
+ * 4. Check if an Array is sorted -->               Done
+ * 5. reverse an Array -->                          Done
+ * 6. Remove duplicates from a sorted array -->     Done
+ * 7. Move Zeros to End                     -->     Done
+ * 8. Left Rotate an Array by One  -->              Done
+ * 9. Left Rotate an Array by D places 
+ * 10. Leaders in an Array 
+ * 11. Frequencies in a sorted Array
+ * 12. Stock Buy and sell
+ * 13. Trapping Rain Water 
+ * 14. Maximum consecutive 1st
+ * 15. Maximum SubArray sum
+ * 16. Longest Even Odd SubArray
+ * 17. Maximum  Circular Sum
+ * 18. Majority Element 
+ * 19. Minimum Consecutive Flips
+ * 20. Sliding Window Technique 
+ * 21. Prefix Sum Technique
+ */
+public class OperationsOnArray {
+		public static void main(String[] args) {
+			
+		}
+}

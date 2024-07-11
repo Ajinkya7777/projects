@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;InterviewPrograms&apos;&#x0D;&#x0A;- Original project: &apos;CoreJava&apos;&#x0D;&#x0A;- Destination element: &apos;InterviewPrograms&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     FourthProblem.java&#x0D;&#x0A;     SecondProblem.java&#x0D;&#x0A;     ThirdProblem.java&#x0D;&#x0A;     ProblemFirst.java&#x0D;&#x0A;     SecondList.java" description="Copy compilation units" element1="/src&lt;{FourthProblem.java" element2="/src&lt;{SecondProblem.java" element3="/src&lt;{ThirdProblem.java" element4="/src&lt;{ProblemFirst.java" element5="/src&lt;{SecondList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1703327522631" target="/InterviewPrograms" units="5" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AshokItBatch&apos; to &apos;CoreJava&apos;" description="Rename resource &apos;AshokItBatch&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/AshokItBatch" name="CoreJava" stamp="1702712547536" updateReferences="true"/>
+</session>

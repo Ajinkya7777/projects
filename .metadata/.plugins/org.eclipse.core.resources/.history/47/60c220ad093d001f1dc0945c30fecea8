@@ -1,0 +1,32 @@
+package Array;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
+
+/*
+ * 1. Sort the array and print in the reverse order
+ * 2. using only one for loop
+ */
+
+public class MovesZeroToEnd {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter the size of an array");
+		int size = scanner.nextInt();
+
+		int[] array = new int[size];
+
+		System.out.println("enter the array elements");
+		for (int i = 0; i < array.length; i++) {
+			array[i] = scanner.nextInt();
+		}
+		
+		Arrays.stream(array).sorted(Collections.reverseOrder()).
+		
+		
+
+		scanner.close();
+	}
+}

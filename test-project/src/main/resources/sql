@@ -1,0 +1,23 @@
+
+    
+    CREATE TABLE users (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(45) NOT NULL UNIQUE,
+    password VARCHAR(500) NOT NULL,
+    enabled BOOLEAN NOT NULL
+);
+
+
+CREATE TABLE authorities (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(45) NOT NULL,
+    authority VARCHAR(45) NOT NULL,
+    CONSTRAINT fk_authorities_users FOREIGN KEY(username) REFERENCES users(username)
+);
+
+    insert into users values (null,'happy','12345','1');
+    insert into authorities values (null,'happy','write');
+    
+    
+     create table custoemr ( id int not null auto_increment, email varchar(45) not null, pwd varchar(45) not null, role varchar(45) not null, primary key (id));
+      insert into custoemr values (null,'johndoe@example.com','54321','admin');

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="652"/>
+		<item key="DIALOG_Y_ORIGIN" value="362"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=ISO-8859-1&quot;"/>
+			<item value="// TODO Auto-generated method stub"/>
+			<item value="package com.ajinkya.reportsapp.serviceImpl;"/>
+			<item value="deleteUser"/>
+			<item value="updateUser"/>
+			<item value="createUser"/>
+			<item value="getUserById"/>
+			<item value="product1"/>
+			<item value="category"/>
+			<item value="save"/>
+			<item value="security"/>
+			<item value="handleMethodArgumentNotValid"/>
+			<item value="handleMethodArgument"/>
+			<item value="Valid"/>
+			<item value="compareTo"/>
+		</list>
+		<list key="replacehistory">
+			<item value=" "/>
+			<item value="getAllUsers"/>
+			<item value="deleteUser"/>
+			<item value="updateUser"/>
+			<item value="createUser"/>
+			<item value="p2"/>
+			<item value="category1"/>
+			<item value="SecondList"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1477"/>
+		<item key="DIALOG_Y_ORIGIN" value="132"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>
